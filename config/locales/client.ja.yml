@@ -21,34 +21,34 @@ ja:
             tb: TB
     dates:
       tiny:
-        half_a_minute: "< 1m"
+        half_a_minute: "< 1秒"
         less_than_x_seconds:
           one:   "< 1s"
-          other: "< %{count}s"
+          other: "< %{count}秒"
         x_seconds:
-          one:   "1s"
-          other: "%{count}s"
+          one:   "1秒"
+          other: "%{count}秒"
         less_than_x_minutes:
-          one:   "< 1m"
-          other: "< %{count}m"
+          one:   "< 1分"
+          other: "< %{count}分"
         x_minutes:
-          one:   "1m"
-          other: "%{count}m"
+          one:   "1分"
+          other: "%{count}分"
         about_x_hours:
-          one:   "1h"
-          other: "%{count}h"
+          one:   "1時間"
+          other: "%{count}時間"
         x_days:
-          one:   "1d"
-          other: "%{count}d"
+          one:   "1日"
+          other: "%{count}日"
         about_x_years:
-          one:   "1y"
-          other: "%{count}y"
+          one:   "1年"
+          other: "%{count}年"
         over_x_years:
-          one:   "> 1y"
-          other: "> %{count}y"
+          one:   "> 1年"
+          other: "> %{count}年"
         almost_x_years:
-          one:   "1y"
-          other: "%{count}y"
+          one:   "1年"
+          other: "%{count}年"
       medium:
         x_minutes:
           one: "1分"
@@ -181,6 +181,17 @@ ja:
       "11": "編集"
       "12": "アイテム送信"
       "13": "インボックス"
+
+    categories:
+      all: "全てのカテゴリ"
+      only_category: "{{categoryName}}のみ"
+      category: "カテゴリ"
+      posts: "ポスト"
+      topics: "トピック"
+      latest: "最新"
+      latest_by: "latest by"
+      toggle_ordering: "順序の制御をトグル"
+      subcategories: "サブカテゴリ:"
 
     user:
       said: "{{username}} のコメント:"
@@ -991,6 +1002,7 @@ ja:
     likes: "いいね！"
     likes_long: "このトピックには{{number}}つ「いいね！」がついています"
     top_contributors: "主な参加者"
+    users: "ユーザ"
     category_title: "カテゴリ"
     history: "History"
     changed_by: "by {{author}}"
@@ -1070,7 +1082,7 @@ ja:
         moderators: 'モデレータ:'
         admins: '管理者:'
         blocked: 'ブロック中:'
-        banned: '追放中:'
+        suspended: '停止中:'
         private_messages_short: "PMs"
         private_messages_title: "プライベートメッセージ"
 
@@ -1348,5 +1360,23 @@ ja:
         title: '設定'
         reset: 'デフォルトに戻す'
         none: 'なし'
+        no_results: "何も見つかりませんでした。."
+        categories:
+          all_results: '全て'
+          required: '必須設定'
+          basic: '基本設定'
+          users: 'ユーザ'
+          posting: 'ポスト'
+          email: 'メール'
+          files: 'ファイル'
+          trust: 'トラストレベル'
+          security: 'セキュリティ'
+          seo: 'SEO'
+          spam: 'スパム'
+          rate_limits: 'Rate Limits'
+          developer: '開発者'
+          uncategorized: 'カテゴリなし'
 
+    lightbox:
+      download: "ダウンロード"
 
