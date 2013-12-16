@@ -6,14 +6,14 @@
 
 ja:
   dates:
-    short_date_no_year: "MMMD日"
-    short_date: "YYYY年MMMD日"
-    long_date: "YYYY年MMMD日 h:mma"
+    short_date_no_year: "MMM D"
+    short_date: "MMM D, YYYY"
+    long_date: "MMMM D, YYYY h:mma"
   time:
     formats:
-      short: "%Y-%d-%m"
+      short: "%m-%d-%Y"
       short_no_year: "%B %-d"
-      date_only: "%Y, %b %-d"
+      date_only: "%b %-d, %Y"
 
   title: "Discourse"
   topics: "トピック"
